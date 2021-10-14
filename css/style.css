@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 100%;
+}
+
+.container{
+    width: 80%;
+    margin: 20px auto;
+}
+
+.clear-fix::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.float{
+    float: left;
+}
+
+header{
+    height: 8em;
+    background-color: violet;
+}
+
+.image-box{
+    height: 15em;
+    background-color: wheat;
+}
+
+.section-header{ 
+    height: 4em;
+    background-color: deepskyblue;
+}
