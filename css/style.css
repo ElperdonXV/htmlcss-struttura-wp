@@ -37,3 +37,23 @@ header{
     height: 4em;
     background-color: deepskyblue;
 }
+
+.b-blue{
+    height: 16em;
+    background-color: dodgerblue;
+}
+
+[class*="column-"] {
+    margin: 1em 0;
+    background-color: deepskyblue;
+    
+}
+
+.column-2{
+    width: calc(50% - 2em);
+}
+
+footer{
+    height: 3em;
+    background-color: darkorchid;
+}
